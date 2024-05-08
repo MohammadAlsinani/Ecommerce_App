@@ -1,0 +1,9 @@
+<!-- button_background_signup.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Button is pressed -->
+    <item android:state_pressed="true" android:drawable="@drawable/button_pressed_color"/>
+    <!-- Button is selected (default state for Signup button) -->
+    <item android:state_selected="true" android:drawable="@color/signup_background_color"/>
+    <!-- Default state (not pressed or selected) -->
+    <item android:drawable="@android:color/transparent"/>
+</selector>

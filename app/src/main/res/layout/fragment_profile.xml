@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="250dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/black"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/your_image"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Profile?"
+                android:textStyle="bold"
+                android:id="@+id/changeprofile"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16dp"
+                android:padding="10dp"
+                >
+
+            </TextView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="30dp"
+                android:padding="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Username"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:padding="10dp"
+                        android:layout_marginTop="8dp"/>
+                    <TextView
+                        android:id="@+id/username_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Username"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:padding="10dp"
+
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="8dp"/>
+
+</RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email"
+                        android:padding="10dp"
+
+                        android:textColor="@color/black"
+
+                        android:textSize="16sp"
+                        android:layout_marginTop="8dp"/>
+                    <TextView
+                        android:id="@+id/email_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email"
+                        android:padding="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_alignParentRight="true"
+                        android:textSize="16sp"
+                        android:layout_marginTop="8dp"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Orders:"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:padding="10dp"
+
+                        android:layout_marginTop="8dp"/>
+                    <TextView
+                        android:id="@+id/total_orders_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:padding="10dp"
+
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/change_password"
+                            android:text="Change Password?"
+                            android:layout_below="@+id/total_orders_text"
+                            android:layout_centerHorizontal="true"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            android:textSize="16dp"
+                            android:padding="10dp"
+                            >
+
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/support"
+                            android:text="Customer Support"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="#000000"
+                            android:textSize="16dp"
+                            android:layout_below="@+id/change_password"
+                            android:layout_centerHorizontal="true"
+                            android:padding="10dp"
+                            >
+
+                        </TextView>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/logout"
+                android:text="Logout"
+                android:layout_gravity="center_horizontal"
+
+                >
+
+            </Button>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/responce"
+                android:text="Complaint Responce"
+                android:textStyle="bold"
+                android:textColor="#FF0000"
+                android:textSize="16dp"
+                android:layout_gravity="end|bottom"
+                android:padding="10dp"
+                >
+            </TextView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

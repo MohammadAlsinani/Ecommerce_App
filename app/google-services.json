@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "384111406116",
+    "project_id": "eccommerse-app",
+    "storage_bucket": "eccommerse-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384111406116:android:d7f23d7c1789ca9c5dbcb1",
+        "android_client_info": {
+          "package_name": "com.app.partyshopping"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQnW0CHVmKWq_vLpqmWFmxh5lSs8eJL7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

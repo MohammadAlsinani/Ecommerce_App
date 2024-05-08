@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Shopping App</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Apple Products</string>
+    <string name="slide_1_desc">The easiest way to order Your Favorite Apple Product from Home!</string>
+
+    <string name="slide_2_title">Fashion Style</string>
+    <string name="slide_2_desc">Book your order now For any type of Fashion related Items we are always here for you!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">Want Household Items?</string>
+    <string name="slide_4_desc">Looking for Household Items? Look no further you are at right place!</string>
+
+
+</resources>
